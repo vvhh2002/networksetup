@@ -1,11 +1,13 @@
 [package]
 name = "networksetup"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["wyhaya <wyhaya@gmail.com>"]
 edition = "2018"
 license = "MIT"
 description = "Change macos system network settings"
 readme = "README.md"
+homepage = "https://github.com/wyhaya/networksetup"
+repository = "https://github.com/wyhaya/networksetup.git"
 
 keywords = [
     "macos",
