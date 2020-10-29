@@ -1,0 +1,17 @@
+[package]
+name = "networksetup"
+version = "0.1.0"
+authors = ["wyhaya <wyhaya@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "Change macos system network settings"
+readme = "README.md"
+
+keywords = [
+    "macos",
+    "network",
+    "system",
+    "networksetup"
+]
+
+[dependencies]
