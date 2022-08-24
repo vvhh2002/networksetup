@@ -161,6 +161,7 @@ pub fn socks_proxy(network: Network, setup: Config<&Address>) -> Result<ExitStat
     let mut cmd = cmd();
     match setup {
         Config::Off => {
+            cmd.args(&["-setsocksfirewallproxystate", network.as_str(), "\"\"","\"\""]);
             cmd.args(&["-setsocksfirewallproxystate", network.as_str(), OFF]);
         }
         Config::On => {
